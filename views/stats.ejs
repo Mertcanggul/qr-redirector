@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İstatistikler</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title><%= title %></title>
 </head>
 <body>
-    <h1>QR Kod İstatistikleri</h1>
-    <p><strong>Mevcut URL:</strong> <a href="<%= targetUrl %>"><%= targetUrl %></a></p>
-    <p>QR taranma sayısı: <strong><%= scanCount %></strong></p>
-    <a href="/">Geri Dön</a>
+  <div class="container">
+    <%- body %>
+  </div>
 </body>
 </html>
