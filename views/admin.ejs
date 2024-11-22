@@ -1,0 +1,13 @@
+<%- include('layout', { 
+    title: 'Admin Page', 
+    body: `
+      <h1>Admin Panel</h1>
+      <p>Current URL: <strong>${url}</strong></p>
+      <form action="/update-url" method="POST">
+        <label for="newUrl">New URL:</label>
+        <input type="text" id="newUrl" name="newUrl" required placeholder="https://www.new-url.com">
+        <button type="submit">Update URL</button>
+      </form>
+      <a href="/">Go Back</a>
+    `
+  }) %>
