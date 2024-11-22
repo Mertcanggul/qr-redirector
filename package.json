@@ -1,20 +1,16 @@
 {
-  "name": "qr-redirector",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "body-parser": "^1.20.3",
-    "ejs": "^3.1.10",
-    "express": "^4.21.1",
-    "qrcode": "^1.5.4",
-    "sqlite3": "^5.1.7"
+    "name": "redirect-app",
+    "version": "1.0.0",
+    "description": "Dynamic redirect application",
+    "main": "app.js",
+    "dependencies": {
+      "ejs": "^3.1.8",
+      "express": "^4.18.2",
+      "body-parser": "^1.20.2"
+    },
+    "scripts": {
+      "start": "node app.js"
+    },
+    "author": "Yunus Emre Koyun",
+    "license": "MIT"
   }
-}
