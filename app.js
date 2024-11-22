@@ -16,7 +16,7 @@ const urlFile = path.join(__dirname, 'redirect_url.txt');
 
 // Varsayılan URL
 if (!fs.existsSync(urlFile)) {
-  fs.writeFileSync(urlFile, 'https://www.example.com');
+  fs.writeFileSync(urlFile, 'https://www.instagram.com/yunussemrekoyun/');
 }
 
 // Ana Yönlendirme Sayfası
